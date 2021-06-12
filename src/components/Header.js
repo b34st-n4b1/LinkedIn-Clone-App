@@ -98,6 +98,9 @@ const Container = styled.div`
   top: 0;
   width: 100vw;
   z-index: 100;
+  @media (max-width: 768px) {
+    padding: 10px 90px 10px;
+  }
 `;
 
 const Content = styled.div`
@@ -134,6 +137,9 @@ const Search = styled.div`
       border-color: #dce6f1;
       vertical-align: text-top;
     }
+  }
+  @media (max-width: 768px) {
+    margin: 0 auto;
   }
 `;
 
