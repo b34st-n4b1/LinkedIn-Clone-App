@@ -230,6 +230,10 @@ const SignOut = styled.div`
   text-align: center;
   display: none;
   cursor: pointer;
+  @media (max-width: 768px) {
+    position: absolute;
+    top: 0;
+  }
 `;
 
 const User = styled(NavList)`
